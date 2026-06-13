@@ -1,8 +1,8 @@
 [
     {
-        "title": "newsbot",
-        "description": "Daily news digest bot that collects headlines from multiple sources and sends HTML email reports.",
-        "github": "https://github.com/bharathchandranbcet29/newsbot"
+        "title": "updatebot",
+        "description": "Portfolio updater that fetches GitHub repositories via API and generates projects.json automatically.",
+        "github": "https://github.com/bharathchandranbcet29/updatebot"
     },
     {
         "title": "portfolio",
@@ -15,9 +15,9 @@
         "github": "https://github.com/bharathchandranbcet29/task-bot"
     },
     {
-        "title": "updatebot",
-        "description": "Portfolio updater that fetches GitHub repositories via API and generates projects.json automatically.",
-        "github": "https://github.com/bharathchandranbcet29/updatebot"
+        "title": "newsbot",
+        "description": "Daily news digest bot that collects headlines from multiple sources and sends HTML email reports.",
+        "github": "https://github.com/bharathchandranbcet29/newsbot"
     },
     {
         "title": "weatherbot",
