@@ -5,11 +5,6 @@
         "github": "https://github.com/bharathchandranbcet29/updatebot"
     },
     {
-        "title": "portfolio",
-        "description": "GitHub Automation Project",
-        "github": "https://github.com/bharathchandranbcet29/portfolio"
-    },
-    {
         "title": "task-bot",
         "description": "Automated task reminder bot built with Python and scheduled using GitHub Actions.",
         "github": "https://github.com/bharathchandranbcet29/task-bot"
