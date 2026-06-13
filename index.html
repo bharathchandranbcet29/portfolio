@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharath Chandran | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">BC.</div>
+
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+
+    <div class="hero-text">
+
+        <h1>Bharath Chandran B</h1>
+
+        <h3>Electrical & Computer Engineering Student</h3>
+
+        <h2 id="typing"></h2>
+
+        <p>
+            Engineer by education. Designer by curiosity.
+            Photographer by passion.
+        </p>
+
+        <div class="buttons">
+            <a href="#projects" class="btn primary">View Projects</a>
+
+            <a href="Bharath_Chandran_Resume.pdf"
+               download
+               class="btn secondary">
+                Download Resume
+            </a>
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+        <img src="photo.jpg" alt="Bharath">
+    </div>
+
+</section>
+
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+        I'm Bharath Chandran, an Electrical and Computer
+        Engineering student at CET. I enjoy programming,
+        UI/UX design, and photography. I'm passionate
+        about learning, building projects, and exploring
+        creative solutions through technology.
+    </p>
+
+</section>
+
+<section id="skills">
+
+    <h2>Skills</h2>
+
+    <div class="skill-grid">
+
+        <div class="card">
+            <h3>Programming</h3>
+            <p>C, Python, MySQL</p>
+        </div>
+
+        <div class="card">
+            <h3>Web</h3>
+            <p>HTML, CSS, JavaScript</p>
+        </div>
+
+        <div class="card">
+            <h3>Design</h3>
+            <p>Figma, UI/UX, Design Systems</p>
+        </div>
+
+        <div class="card">
+            <h3>Creative</h3>
+            <p>Photography & Visual Storytelling</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="projects">
+
+    <h2>Projects</h2>
+
+<div class="filter-buttons">
+
+    <button onclick="filterProjects('all')">All</button>
+
+    <button onclick="filterProjects('design')">
+        Design
+    </button>
+
+    <button onclick="filterProjects('web')">
+        Web
+    </button>
+
+    <button onclick="filterProjects('code')">
+        Code
+    </button>
+
+</div>
+
+<p id="project-count">
+    Showing: 3 Projects
+</p>
+
+<div class="project-grid">
+
+    <div class="card project-card design">
+        <h3>BookMyShow UI Redesign</h3>
+        <p>
+            Redesigned the movie booking experience
+            with improved usability and modern UI.
+        </p>
+    </div>
+
+    <div class="card project-card design">
+        <h3>Figma Design System</h3>
+        <p>
+            Built reusable components, foundations
+            and scalable design tokens.
+        </p>
+    </div>
+
+    <div class="card project-card code">
+        <h3>Banking Management System</h3>
+        <p>
+            Developed a menu-driven banking
+            application for account management.
+        </p>
+    </div>
+
+</div>
+
+<div class="project-grid" id="github-projects" style="margin-top: 30px;">
+</div>
+
+<p id="no-projects">
+    No projects found.
+</p>
+
+    
+
+    <div class="card figma-project">
+
+    <h3>Figma Design System Library</h3>
+
+    <p>
+        Built a scalable design system featuring color
+        tokens, typography, buttons, inputs, cards,
+        and reusable components.
+    </p>
+
+    
+
+    <a
+    href="https://www.figma.com/proto/bv4TOl7XKIkQTlY7vReWWv/Untitled?node-id=1-633&p=f&t=9QWLsI87JYEvlts7-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A633"
+    target="_blank"
+    class="figma-btn">
+
+        Open Prototype
+
+    </a>
+
+    <iframe
+    class="figma-embed"
+    src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/bv4TOl7XKIkQTlY7vReWWv/Untitled?node-id=1-633&p=f&t=9QWLsI87JYEvlts7-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A633"
+    allowfullscreen>
+    </iframe>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+    <h2>Through My Lens</h2>
+
+    <div class="gallery">
+
+        <img src="1.jpeg">
+        <img src="2.jpeg">
+        <img src="3.jpeg">
+        <img src="4.jpeg">
+        <img src="5.jpeg">
+        <img src="6.jpeg">
+
+    </div>
+
+</section>
+
+<section id="blog">
+
+    <h2>Blog</h2>
+
+    <div class="blog-grid">
+
+        <div class="blog-card">
+            <h3>My Journey Into UI/UX Design</h3>
+
+            <p class="date">June 06 2026</p>
+
+            <p>
+                How I started learning UI/UX design and
+                built my first design system in Figma.
+            </p>
+
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="blog-card">
+            <h3>Building a Banking Management System</h3>
+
+            <p class="date">May 16 2026</p>
+
+            <p>
+                Lessons learned while developing a
+                simple banking application project.
+            </p>
+
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="blog-card">
+            <h3>Photography Through My Lens</h3>
+
+            <p class="date">April 21 2026</p>
+
+            <p>
+                Capturing moments and improving
+                storytelling through photography.
+            </p>
+
+            <a href="#">Read More</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <h2>Let's Connect</h2>
+
+    <div class="contact-box">
+
+        <a href="mailto:bharathchandranb2006@gmail.com"
+           target="_blank">
+            Email
+        </a>
+
+        <br>
+
+        <a href="https://www.linkedin.com/in/bharath-chandran-b-08764936b"
+           target="_blank">
+            LinkedIn
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p style="text-align:center;">
+        &copy; 2026 BC <br>
+        Designed and developed by Bharath Chandran
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
