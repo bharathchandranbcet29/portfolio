@@ -5,6 +5,11 @@
         "github": "https://github.com/bharathchandranbcet29/newsbot"
     },
     {
+        "title": "sample",
+        "description": "GitHub Automation Project",
+        "github": "https://github.com/bharathchandranbcet29/sample"
+    },
+    {
         "title": "task-bot",
         "description": "Automated task reminder bot built with Python and scheduled using GitHub Actions.",
         "github": "https://github.com/bharathchandranbcet29/task-bot"
